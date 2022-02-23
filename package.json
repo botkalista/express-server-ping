@@ -1,22 +1,22 @@
 {
-  "name": "express-server-status",
+  "name": "express-server-ping",
   "version": "1.0.0",
-  "description": "Express middleware to check server status remotely",
+  "description": "Express middleware to check server status and ping remotely",
   "main": "index.js",
   "scripts": {
     "test": "node src/examples/example.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/botkalista/express-server-status.git"
+    "url": "git+https://github.com/botkalista/express-server-ping.git"
   },
   "keywords": [],
   "author": "Emily",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/botkalista/express-server-status/issues"
+    "url": "https://github.com/botkalista/express-server-ping/issues"
   },
-  "homepage": "https://github.com/botkalista/express-server-status#readme",
+  "homepage": "https://github.com/botkalista/express-server-ping#readme",
   "devDependencies": {
     "express": "^4.17.3",
     "node-fetch": "^2.6.1"

@@ -1,6 +1,6 @@
-# Express Server Status
+# Express Server Ping
 
-Basic  middleware that creates an endpoint to check if the server is running.
+Basic  middleware that creates an endpoint to check if the server is running and it's ping.
 
 ### Params
 
@@ -18,7 +18,7 @@ $ npm install express-server-status
 To use it with default settings
 
 ```js
-const serverStatus = require("express-server-status");
+const serverStatus = require("express-server-ping");
 
 //  create the endpoint on GET /status
 app.use(serverStatus());
@@ -27,7 +27,7 @@ app.use(serverStatus());
 To use it on a custom path
 
 ```js
-const serverStatus = require("express-server-status");
+const serverStatus = require("express-server-ping");
 
 //  create the endpoint on GET /custom_endpoint
 app.use(serverStatus({path:'/custom_endpoint'}));
