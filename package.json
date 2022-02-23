@@ -1,0 +1,24 @@
+{
+  "name": "express-server-status",
+  "version": "1.0.0",
+  "description": "Express middleware to check server status remotely",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/examples/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botkalista/express-server-status.git"
+  },
+  "keywords": [],
+  "author": "Emily",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/botkalista/express-server-status/issues"
+  },
+  "homepage": "https://github.com/botkalista/express-server-status#readme",
+  "devDependencies": {
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.1"
+  }
+}
